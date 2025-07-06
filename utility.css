@@ -30,3 +30,25 @@
 .p-1{
     padding: 10px;
 }
+/* Applies to all scrollable elements */
+::-webkit-scrollbar {
+  width: 8px;              /* Width of vertical scrollbar */
+  height: 8px;             /* Height of horizontal scrollbar */
+}
+
+/* Track (the background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #1e1e1e;     /* Dark track background */
+  border-radius: 10px;
+}
+
+/* Handle (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: #444;        /* Dark grey scrollbar handle */
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666;        /* Lighter grey when hovered */
+}
